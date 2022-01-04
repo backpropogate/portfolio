@@ -10,17 +10,20 @@ export default function Home() {
         <link rel="icon" href="/stand.ico" />
       </Head>
       <Nav/>
-      <main className='overflow-hidden flex justify-between'>
-        <hero className='flex justify-between mx-auto py-20 sm:py-28 px-10 '>
+      <main className='overflow-hidden text-center flex justify-between   '>
+        <hero className='flex justify-between py-20 mx-auto  '>
           <div className='left'>
-            <h1 className='text-4xl whitespace-nowrap w-1/2 anim '>Hello I'm <span className='text-blue-500 font-bold whitespace-nowrap'>Wil</span>,</h1>
-            <h1 className='text-4xl'>Full stack developer</h1>
-            <div className="mt-5 flex gap-3">
+            <h1 className=' text-3xl sm:text-4xl  anim '>Hello I'm <span className='text-blue-500 font-bold whitespace-nowrap'>Wil</span>,</h1>
+            <h1 className=' text-3xl sm:text-4xl'>Full stack developer</h1>
+            <div className="mt-10 flex  justify-center gap-2">
             <a href="" className=" whitespace-nowrap border-solid border-white border-2  py-2 px-4 rounded flex justify-center">Contact me</a>
             <a href="" className="whitespace-nowrap bg-blue-500 text-white   py-2 px-4 rounded flex justify-center">Portfolio</a>
+            
+
             </div>
+            <div className=' rotate-90 mt-48 whitespace-nowrap   '> <span className='rotate-90 '><div className='animate-bounces'>scroll down &#8594;</div> </span></div>
           </div>
-          <div className='right rotate-90 whitespace-nowrap  '> <span className='rotate-90 '><div className='animate-bounces'>scroll down &#8594;</div> </span></div>
+          
         </hero>
       </main>
       <Portfolio/>
