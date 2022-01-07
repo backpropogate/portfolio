@@ -159,7 +159,7 @@ const Portfolio = () => {
 
                 
                 <a href="#"
-                  className="animate-bounce inline-block uppercase font-medium bg-accent px-4 py-2 text-white bg-blue-500 rounded shadow-md ml-auto lg:ml-0 lg:w-max"><span
+                  className="animate-wiggle inline-block uppercase font-medium bg-accent px-4 py-2 text-white bg-blue-500 rounded shadow-md ml-auto lg:ml-0 lg:w-max"><span
                     className="text-sm opacity-75">Visit Project</span></a>
               </div>
             </div>

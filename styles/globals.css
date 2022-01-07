@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
- body {
+* {
+  scroll-behavior: smooth;
+} 
+body {
      background-color: #212121;
      color: white;
      font-family: 'Poppins', sans-serif;
+   
  }
  .bggraynother {
    background-color:#212121 ;
