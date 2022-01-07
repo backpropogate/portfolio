@@ -20,7 +20,7 @@ const Contact = () => {
     }
     if(!inView){
       animation.start({
-        x: '-100vw',
+        x: '-400px',
       })
     }
 
