@@ -52,11 +52,310 @@ body {
 }
   @keyframes bounce {
     0%, 100% {
-        transform: translateX(-25%);
+        transform: translateX(-20%);
         animation-timing-function: cubic-bezier(0.8,0,1,1);
     }
     50% {
         transform: none;
         animation-timing-function: cubic-bezier(0,0,0.2,1);
     }
+}
+
+.skills1 {
+  animation: skillAnim1 3s ease 0s infinite normal forwards;
+}
+@keyframes skillAnim1 {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-7px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -8px);
+  }
+
+  60% {
+    transform: translate(7px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -8px);
+  }
+
+  100% {
+    transform: translate(7);
+  }
+}
+.skills2 {
+  animation: skillAnim2   5s ease 0s infinite reverse backwards;
+}
+@keyframes skillAnim2{
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+.skills3 {
+  animation: skillAnim3 6s ease 0s infinite reverse backwards;
+}
+@keyframes skillAnim3 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+.skills4 {
+  animation: skillAnim4  7s ease 0s infinite reverse backwards;
+}
+@keyframes skillAnim4 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+.skills5 {
+  animation: skillAnim5 2s ease 0s infinite reverse backwards;
+}
+@keyframes skillAnim5 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+.skills6 {
+  animation: skillAnim6 11s ease 0s infinite reverse backwards;
+}
+@keyframes skillAnim6 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+.skills7 {
+  animation: skillAnim7 2s ease 0s infinite reverse backwards;
+}
+@keyframes skillAnim7 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0.6;
+  }
+}
+.skills8 {
+  animation: skillAnim8 2s ease 0s infinite reverse backwards;
+}
+@keyframes skillAnim8 {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+.skills9 {
+  animation: skillAnim9 8s ease 0s infinite reverse backwards;
+}
+@keyframes skillAnim9 {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.under {
+display: inline-block;
+position: relative;
+}
+.under::after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  left: 0;
+  bottom: -3px;
+  -o-transition:.5s;
+  		  -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+}
+.under:hover::after{
+  width:90%;
+  height: 2px;
+  background-color: #3b82f6;
+}
+.puesdo {
+  position: relative;
+  cursor: pointer;
+}
+.puesdo:hover {
+  opacity: 0.7;
+}
+.puesdo::after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  left: 0;
+  bottom: -3px;
+  -o-transition:.5s;
+  		  -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+}
+.puesdo:hover::after {
+  width:90%;
+  height: 4px;
+  background-color: #3b82f6;
 }
